@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "211611262964",
+    "firebase_url": "https://meal-o-fd538.firebaseio.com",
+    "project_id": "meal-o-fd538",
+    "storage_bucket": "meal-o-fd538.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211611262964:android:d27d674c692af2f40d63a1",
+        "android_client_info": {
+          "package_name": "com.example.Meal_O"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211611262964-pjkvqkn1lq2rk0l0k65fm7egvogimek2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXrpdnTw4cuNoSWdsBVief4htQvpQyo30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211611262964-pjkvqkn1lq2rk0l0k65fm7egvogimek2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,222 @@
+name: Meal_O
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^2.2.1
+  font_awesome_flutter: ^8.8.1
+  url_launcher: ^5.5.0
+  
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  firebase_admob: ^0.9.0+1
+  firebase_core: ^0.4.0+6 
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/images/italian.png
+     - assets/images/desi.jpg
+     - assets/images/asian.jpg
+     - assets/images/french.jpg
+     - assets/images/hamburger.jpg
+     - assets/images/mexican.jpg
+     - assets/images/salad.jpg
+     - assets/images/summer.jpg
+     - assets/images/Breakfast.jpg
+     - assets/images/sweet.png
+     - assets/images/pic.png
+     - assets/images/arabian.png
+     - assets/images/thai.png
+     - assets/images/afghanipulao1.png
+     - assets/images/afghanipulao2.png
+     - assets/images/afghanipulao3.png
+     - assets/images/bbqbiryani1.png
+     - assets/images/bbqbiryani2.png
+     - assets/images/bbqbiryani3.png
+     - assets/images/butterchick1.png
+     - assets/images/butterchick2.png
+     - assets/images/butterchick3.png
+     - assets/images/beefbiryani1.png
+     - assets/images/beefbiryani2.png
+     - assets/images/beefbiryani3.png
+     - assets/images/chickpizza1.png
+     - assets/images/chickpizza2.png
+     - assets/images/chickpizza3.png
+     - assets/images/chineserice1.png
+     - assets/images/chineserice2.png
+     - assets/images/chineserice3.png
+     - assets/images/chocosouffle1.png
+     - assets/images/chocosouffle2.png
+     - assets/images/chocosouffle3.png
+     - assets/images/curry1.png
+     - assets/images/curry2.png
+     - assets/images/curry3.png
+     - assets/images/donut1.png
+     - assets/images/donut2.png
+     - assets/images/donut3.png
+     - assets/images/friedrice1.png
+     - assets/images/friedrice2.png
+     - assets/images/friedrice3.png
+     - assets/images/gulabjamun1.png
+     - assets/images/gulabjamun2.png
+     - assets/images/gulabjamun3.png
+     - assets/images/itsalad1.png
+     - assets/images/itsalad2.png
+     - assets/images/itsalad3.png
+     - assets/images/koftay1.png
+     - assets/images/koftay2.png
+     - assets/images/koftay3.png
+     - assets/images/manchurian1.png
+     - assets/images/manchurian2.png
+     - assets/images/manchurian3.png
+     - assets/images/mandi1.png
+     - assets/images/mandi2.png
+     - assets/images/mandi3.png
+     - assets/images/nachos1.png
+     - assets/images/nachos2.png
+     - assets/images/nachos3.png
+     - assets/images/pancake1.png
+     - assets/images/pancake2.png
+     - assets/images/pancake3.png
+     - assets/images/russalad1.png
+     - assets/images/russalad2.png
+     - assets/images/russalad3.png
+     - assets/images/sajjibiryani1.png
+     - assets/images/sajjibiryani2.png
+     - assets/images/sajjibiryani3.png
+     - assets/images/salsa1.png
+     - assets/images/salsa2.png
+     - assets/images/salsa3.png
+     - assets/images/shashlik1.png
+     - assets/images/shashlik2.png
+     - assets/images/shashlik3.png
+     - assets/images/spagwithsauce1.png
+     - assets/images/spagwithsauce2.png
+     - assets/images/spagwithsauce3.png
+     - assets/images/tacos.png
+     - assets/images/tacos2.png
+     - assets/images/tacos3.png
+     - assets/images/tawachick1.png
+     - assets/images/tawachick2.png
+     - assets/images/tawachick3.png
+     - assets/images/vegsalad1.png
+     - assets/images/vegsalad2.png
+     - assets/images/vegsalad3.png
+     - assets/images/thaisalad1.jpg
+     - assets/images/thaisalad2.jpg
+     - assets/images/thaisalad3.jpg
+     - assets/images/thaiomellete1.jpg
+     - assets/images/thaiomellete2.jpg
+     - assets/images/thaiomellete3.jpg
+     - assets/images/thaiburger1.jpg
+     - assets/images/thaiburger2.jpg
+     - assets/images/thaiburger3.jpg
+     - assets/images/minttulip1.jpg
+     - assets/images/minttulip2.jpg
+     - assets/images/minttulip3.jpg
+     - assets/images/frozenapple1.jpg
+     - assets/images/frozenapple2.jpg
+     - assets/images/frozenapple3.jpg
+     - assets/images/chickwings1.jpg
+     - assets/images/chickwings2.jpg
+     - assets/images/chickwings3.jpg
+     - assets/images/chickrisotto1.jpg
+     - assets/images/chickrisotto2.jpg
+     - assets/images/chickrisotto3.jpg
+     - assets/images/wonton1.jpg
+     - assets/images/wonton2.jpg
+     - assets/images/wonton3.jpg
+     - assets/images/steak1.jpg
+     - assets/images/steak2.jpg
+     - assets/images/steak3.jpg
+     - assets/images/shawarma1.jpg
+     - assets/images/shawarma2.jpg
+     - assets/images/shawarma3.jpg
+     - assets/images/ompizza1.jpg
+     - assets/images/ompizza2.jpg
+     - assets/images/ompizza3.jpg
+     - assets/images/lemonade1.jpg
+     - assets/images/lemonade2.jpg
+     - assets/images/lemonade3.jpg
+     - assets/images/lasagne1.jpg
+     - assets/images/lasagne2.jpg
+     - assets/images/lasagne3.jpg
+     - assets/images/khausey1.jpg
+     - assets/images/khausey2.jpg
+     - assets/images/khausey3.jpg
+     - assets/images/beefkarhai1.jpg
+     - assets/images/beefkarhai2.jpg
+     - assets/images/beefkarhai3.jpg
+     - assets/images/logo1.png
+     - assets/images/logomeal.png
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+     - family:  Raleway
+       fonts:
+         - asset: assets/fonts/Raleway-Regular.ttf
+         - asset: assets/fonts/Raleway-Bold.ttf
+           weight: 700
+         - asset: assets/fonts/Raleway-Black.ttf
+           weight: 900 
+     - family:  RobotoCondensed
+       fonts:
+         - asset: assets/fonts/RobotoCondensed-Regular.ttf
+         - asset: assets/fonts/RobotoCondensed-Bold.ttf
+           weight: 700
+         - asset: assets/fonts/RobotoCondensed-Light.ttf
+           weight: 300 
+         - asset: assets/fonts/RobotoCondensed-Italic.ttf
+           style: italic 
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
